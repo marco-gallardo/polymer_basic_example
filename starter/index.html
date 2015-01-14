@@ -34,7 +34,14 @@
 
   <body unresolved>
     <core-header-panel>
-      <core-toolbar> </core-toolbar>
+
+      <core-toolbar>
+        <paper-tabs id="tabs" selected="all" self-end>
+          <paper-tab name="all">All</paper-tab>
+          <paper-tab name="favorites">Favorites</paper-tab>
+        </paper-tabs>
+      </core-toolbar>
+
       <!-- main page content will go here -->
     </core-header-panel>
   </body>
